@@ -1,7 +1,9 @@
 # watch-folder
-A simple reference program written in golang to monitor file changes in a folder.  It does not depend on the iNotify for Linux or OS FileSystem event notifications. This allows it to recognise changes to a folder even if the change was done by another computer, for eg:- on a mounted share.
+A simple reference program written in golang to monitor file changes in a folder.  It does not depend on the iNotify for Linux or other OS FileSystem event notifications. This allows it to recognise changes to a folder even if the change was done by another computer, for eg:- on a mounted share.  This could work on Windows or MAC, but only tested on Linux.  Included a compiled version for Linux 64-bit.
 
-Code list the folder contents and compare with previous listing.  It schedules the folder listing check every 30 seconds.  If previous listing and new listing didn't match for what ever reason, it prints out the new listing.  It does not do any try to identify what changed.
+Code list the folder contents and compare with previous listing.  It schedules the folder listing check every 30 seconds.  If previous listing and new listing didn't match for what ever reason, it prints out the new listing.  It does not try to identify what changed.
+
+No guarantees or warrantees for the functionality of the code.  Use as you please.  Customize as you please.  This will just give you a head start.
 
 Dependencies:
 
