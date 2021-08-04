@@ -1,5 +1,5 @@
 # watch-folder
-A simple program written in golang to monitor file changes in a folder.  Code list the folder contents and compare with previous listing.  It schedules the folder listing check every 30 seconds.  If previous listing and new listing didn't match for what ever reason, it prints out the new listing.  It does not do any try to identify what changed.
+A simple reference program written in golang to monitor file changes in a folder.  Code list the folder contents and compare with previous listing.  It schedules the folder listing check every 30 seconds.  If previous listing and new listing didn't match for what ever reason, it prints out the new listing.  It does not do any try to identify what changed.
 
 Dependencies:
 
