@@ -5,9 +5,10 @@ Dependencies:
 github.com/whiteShtef/clockwork is used as a scheduler
 
 Instructions
-# git clone https://github.com/abyzthomas/watch-folder.git
-# cd watch-folder
-# go get github.com/whiteShtef/clockwork
-# go build .
+
+git clone https://github.com/abyzthomas/watch-folder.git
+cd watch-folder
+go get github.com/whiteShtef/clockwork
+go build .
 
 
