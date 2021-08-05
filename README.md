@@ -13,8 +13,9 @@ github.com/whiteShtef/clockwork is used as a scheduler
 
 
 
-Instructions
---- bash
+# Instructions
+
+``` bash
 git clone https://github.com/abyzthomas/watch-folder.git
 
 cd watch-folder
@@ -23,5 +24,5 @@ go get github.com/whiteShtef/clockwork
 
 go build .
 
-
+```
 
