@@ -5,9 +5,10 @@ Code list the folder contents and compare with previous listing.  It schedules t
 
 No guarantees or warrantees for the functionality of the code.  Use as you please.  Customize as you please.  This will just give you a head start.
 
-WARNING!: This process may not be efficient if the folder structure is very large and may increase resouce usage or even crash the server.  I am not responsible for any issues caused by using this code.
+# WARNING!: 
+This process may not be efficient if the folder structure is very large and may increase resouce usage or even crash the server.  I am not responsible for any issues caused by using this code.
 
-Dependencies:
+# Dependencies:
 
 github.com/whiteShtef/clockwork is used as a scheduler
 
